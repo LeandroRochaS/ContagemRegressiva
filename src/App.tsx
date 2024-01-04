@@ -14,7 +14,7 @@ function App() {
 
   setInterval(() => {
     const { textDay, textHour, textMinute, textSecond } = countDown(
-      new Date("2024-01-01")
+      new Date("2025-01-01")
     );
 
     setDay(textDay);
@@ -34,8 +34,8 @@ function App() {
             style={{ fontSize: "2rem" }}
             className="flip-clock"
           /> */}
-        <h1>2024</h1>
-        <h1 className="reverse">2024</h1>
+        <h1>2025</h1>
+        <h1 className="reverse">2025</h1>
         <div className="contagem-regressiva">
           <Count title="Dias" numero={`${day}`} />
           <Count title="Horas" numero={hour < 10 ? `0${day}` : `${day}`} />
